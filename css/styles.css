@@ -10989,6 +10989,14 @@ section.cta:before {
   position: relative;
 }
 
+.modal{
+  position:absolute;
+  float: left;
+  left: 50%;
+  top: 50%;
+
+}
+
 .features-device-mockup {
   display: flex;
   align-items: center;

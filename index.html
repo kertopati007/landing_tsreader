@@ -17,6 +17,17 @@
     <link href="css/styles.css" rel="stylesheet" />
     <link href="assets/images/tslogo.png" rel="shortcut icon" type="image/x-icon">
     <link href="assets/images/tslogo.png" rel="apple-touch-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#myModal").modal('show');
+        });
+    </script>
+
+
 </head>
 
 <body id="page-top">
@@ -183,17 +194,46 @@
             </div>
         </div>
     </footer>
-    <!-- Feedback Modal-->
 
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- <div class="modal-header">
+                </div> -->
+                <div class="modal-body">
+                    <div class="container px-5">
+                        <h2 class="text-center text-black font-alt mb-4">Get the app now!</h2>
+                        <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
+                            <a class="me-lg-3 mb-4 mb-lg-0" target="_blank" href="https://play.google.com/store/apps/details?id=com.tsqrreader"><img class="app-badge"
+                                    src="assets/img/google-play-badge.svg" alt="..." /></a>
+                            <a target="_blank" href="https://apps.apple.com/id/app/ts-reader/id1581720279?l=id"><img class="app-badge" src="assets/img/app-store-badge.svg"
+                                    alt="..." /></a>
+                        </div>
+                    </div>
+                    <!-- <p>Subscribe to our mailing list to get the latest updates straight in your inbox.</p>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email Address">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 
 </html>
