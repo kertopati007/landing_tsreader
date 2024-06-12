@@ -11001,9 +11001,14 @@ section.cta:before {
   height: 300px;
   display: none;
   /* background-color: #000; */
-  background-image: url("../assets/images/b1.png");
-  background-size: 300px;
+  /* background-image: url("../assets/images/b1.png");
+  background-size: 300px; */
   background-repeat: no-repeat;
+}
+
+.features-device-mockup .circle .img-fitur{
+  width: 300px;
+  height: 300px;
 }
 
 .features-device-mockup .shape-1 {
