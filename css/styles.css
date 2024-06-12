@@ -11200,3 +11200,20 @@ footer a:hover, footer a:active, footer a:focus {
     max-width: 17rem;
   }
 }
+
+.testi{
+  /* padding-top: 5em; */
+  padding-bottom: 5em;
+  background-image: url("../assets/images/building.svg");
+
+}
+
+
+
+.bg-testi::before{
+  opacity: 0.5;
+}
+.testi .text{
+  font-weight: bold;
+
+}
