@@ -10977,10 +10977,8 @@ section.cta:before {
 
 .fitur{
   content: '';
-  /* position: absolute; */
   display: block;
   padding-top: 2em;
-  padding-bottom: 2em;
   background-image: url("../assets/images/building.svg");
 }
 
@@ -11120,13 +11118,14 @@ footer a:hover, footer a:active, footer a:focus {
 .masthead {
   background-color: #f8f9fa;
   padding-top: 9.5rem;
-  padding-bottom: 5rem;
+  /* padding-bottom: 5rem; */
 }
 .masthead .masthead-device-mockup {
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  /* margin-left: 50%; */
 }
 .masthead .masthead-device-mockup .circle {
   position: absolute;
