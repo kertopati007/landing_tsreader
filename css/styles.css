@@ -11208,7 +11208,13 @@ footer a:hover, footer a:active, footer a:focus {
 
 }
 
-
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  /* height: 1000px; */
+}
 
 .bg-testi::before{
   opacity: 0.5;
